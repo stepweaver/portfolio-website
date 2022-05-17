@@ -128,7 +128,7 @@ ul {
   }
   .grid__item {
     background-color: var(--secondary-bg-color);
-    width: auto;
+    width: dauto;
     min-height: auto;
     margin: 0;
   }
