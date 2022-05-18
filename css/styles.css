@@ -54,13 +54,18 @@ a:active {
   color: var(--secondary-color);
 }
 
+a.button {
+  color: #ffffff;
+}
+
 .navigation-list {
   list-style-type: none;
 }
 
 .navigation-list li {
   display: inline-block;
-  margin-left: 25px
+  margin-left: 25px;
+  font-size: 18px;
 }
 
 .navigation-list__item--active {
