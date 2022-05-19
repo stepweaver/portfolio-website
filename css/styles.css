@@ -144,7 +144,7 @@ ul {
     background-color: var(--secondary-bg-color);
     width: dauto;
     min-height: auto;
-    margin: 0;
+    margin: 20px;
   }
   .grid__item:first-child {
     grid-column: 1 / 1;
