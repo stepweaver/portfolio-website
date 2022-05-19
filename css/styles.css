@@ -29,11 +29,20 @@ h1 {
 
 h2 {
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 h3 {
   font-size: 18px;
+  font-weight: 700;
+}
+
+hr {
+  border-top: 2px solid #ffffff;
+}
+
+.name {
+  font-size: 40px;
   font-weight: 700;
 }
 
@@ -65,7 +74,7 @@ a.button {
 .navigation-list li {
   display: inline-block;
   margin-left: 25px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .navigation-list__item--active {
