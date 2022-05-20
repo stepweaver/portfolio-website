@@ -15,7 +15,7 @@ main {
 
 body {
   background-color: var(--primary-bg-color);
-  font-family: 'Roboto Mono' sans-serif;
+  font-family: 'Roboto Mono', sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: var(--color);
@@ -239,4 +239,12 @@ button:focus,
 
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
+}
+
+.contact-form {
+  width: 200px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
 }
