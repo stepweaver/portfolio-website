@@ -35,19 +35,20 @@
 
   <main>
     <h1>Contact Me</h1>
-    <a href="tel:6167245558">Phone</a> 6167245558<br />
-    Skype <a href="https://join.skype.com/invite/q0jI1IVLcJXA">Stephen Weaver</a><br />Email <a href="mailto:weaverst@mail.gvsu.edu">weaverst@mail.gvsu.edu</a><br /><a href="mailto:weaverst@mailgvsu.edu">Contact me</a>
-      <form action="" method="post" id="contact-form">
-        <label class="standard-label" for="name">Name: </label>
-        <input type="text" id="contact-name" required>
-        <label class="standard-label" for="contact-email">Email: </label>
-        <input type="email" id="contact-email" required><br>
-        <label class="standard-label" for="contact-tel">Telephone (###-###-###): </label>
-        <input type="tel" id="contact-tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" required>
-        <label class="standard-label" for="contact-textarea">Message: </label>
-        <textarea maxlength="240" id="contact-textarea" required></textarea>
-        <input type="submit" value="Send Message">
-      </form>
+    Phone <a href="tel:6167245558">(616) 724-5558</a><br />
+    Skype <a href="https://join.skype.com/invite/q0jI1IVLcJXA">Stephen Weaver</a><br />Email <a href="mailto:weaverst@mail.gvsu.edu">weaverst@mail.gvsu.edu</a>
+    <p>I'm interested freelance work and challenging projects.<br />Let me create something awesome for you!</p>
+    <form class="contact-form" action="" method="post" id="contact-form">
+      <label class="standard-label" for="name"></label>
+      <input type="text" id="contact-name" placeholder="Name" required>
+      <label class="standard-label" for="contact-email"></label>
+      <input type="email" id="contact-email" placeholder="Email" required><br>
+      <label class="standard-label" for="contact-tel"></label>
+      <input type="tel" id="contact-tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" placeholder="Phone Number" required>
+      <label class="standard-label" for="contact-textarea"></label>
+      <textarea maxlength="240" id="contact-textarea" placeholder="Message" required></textarea>
+      <input type="submit" value="Send">
+    </form>
   </main>
 
   <footer class="page-footer">
